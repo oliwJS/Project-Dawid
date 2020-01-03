@@ -1,3 +1,7 @@
+body {
+  margin: 40px;
+}
+
 .history {
   display: flex;
 }
@@ -7,19 +11,43 @@
   text-align: center;
   padding: 50px;
   margin-top: 50px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
 }
 
-.logo + .menu {
+.menu {
   display: flex;
   justify-content: flex-end;
   width: 100%;
   height: 90px;
   position: fixed;
   top: 0px;
-  left: -25px;
-  padding: 18px;
+  left: -80px;
+  padding: 40px;
   text-indent: 48px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .logo {
+  font-family: kepler-std-semicondensed-dis, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logo_menu {
+  background-color: #d9c5b2;
 }
