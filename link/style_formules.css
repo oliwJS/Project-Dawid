@@ -1,17 +1,14 @@
-body {
-  margin: 40px;
-}
-
 nav {
-  background-color: #d9c5b2;
   height: 70px;
 }
 
-.logo {
+h1 {
   font-family: kepler-std-semicondensed-dis, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 30px;
+  padding: 16px;
+  color: black;
 }
 
 .menu {
@@ -24,9 +21,8 @@ nav {
   left: -116px;
   padding: 65px;
   text-indent: 48px;
-  font-family: Helvetica;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 17px;
   text-align: center;
@@ -37,21 +33,18 @@ a {
   color: black;
 }
 
-.page_footer {
-  background-color: #d9c5b2;
+h2 {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
-  height: 70px;
-}
-.icon_gmail {
-  text-align: center;
-  height: 20px;
-  width: 20px;
-  margin-top: 25px;
 }
 
-.icon_instagram {
+p {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
-  height: 20px;
-  width: 20px;
-  margin-top: 25px;
+  padding: 30px;
+  line-height: 30px;
+}
+
+main {
+  display: flex;
 }
