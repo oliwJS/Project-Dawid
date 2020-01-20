@@ -16,7 +16,7 @@ h1 {
   justify-content: flex-end;
   width: 100%;
   height: 90px;
-  position: fixed;
+  position: absolute;
   top: 0px;
   left: -116px;
   padding: 65px;
@@ -45,6 +45,40 @@ p {
   line-height: 30px;
 }
 
-main {
+main,
+section {
+  width: 100%;
+  height: auto;
+}
+
+.formules article {
+  width: 70%;
+  margin: 20px auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.article_image {
+  width: 30%;
+  order: 1;
+}
+
+.article_imagee img {
+  width: 100%;
+  height: 100%;
+}
+
+.article_content {
+  order: 2;
+  width: 69%;
+}
+
+.reverse .article_image {
+  order: 2;
+}
+
+.reverse .article_content {
+  order: 1;
 }
