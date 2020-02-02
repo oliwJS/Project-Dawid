@@ -1,2 +1,2 @@
 # Project-Dawid
-Project Personal for Dawid
+Personal project for Dawid
