@@ -2,4 +2,4 @@
 
 Personal project for Dawid
 
-link : inestimable-mccarthy-3624b1.netlify.com
+link : https://priceless-mccarthy-3624b1.netlify.com/
